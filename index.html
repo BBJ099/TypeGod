@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEDuGames - Speed Typing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="logo">T</div>
+        <span class="tag">TYPE TRAINING</span>
+        <h1>TypeGod</h1>
+        <p>Challenge your typing skills. Are you the best? Or the worst...</p>
+    </header>
+
+    <nav class="navbar">
+        <a href="#">More Games</a>
+        <a href="#">Our Creations</a>
+        <a href="#">Check Us</a>
+        <a href="#" class="creators">Creators</a>
+    </nav>
+
+    <main>
+        <div class="game-container">
+
+            <h2>Speed Typing Test</h2>
+
+            <div class="stats">
+                <div>Score: <span id="score">0</span></div>
+                <div>Streak: <span id="streak">0</span></div>
+            </div>
+
+            <div class="stats secondary">
+                <div>Time: <span id="timer">60</span>s</div>
+                <div>WPM: <span id="wpm">0</span></div>
+            </div>
+
+            <div class="quote-display" id="quoteDisplay">
+                Loading...
+            </div>
+
+            <textarea
+                id="quoteInput"
+                placeholder="Start typing here..."
+                autocomplete="off"
+                spellcheck="false"
+                disabled
+            ></textarea>
+
+            <div class="buttons">
+                <button id="submitBtn">Submit</button>
+                <button id="restartBtn">Restart</button>
+            </div>
+
+            <p id="message">Type the sentence as fast as you can!</p>
+
+            <div class="accuracy">
+                Accuracy: <span id="accuracy">100%</span>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 KEDuGames.com | Speed Typing Challenge</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
